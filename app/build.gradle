@@ -40,11 +40,13 @@ android {
     flavorDimensions "version"
     productFlavors {
         free {
+            applicationId "com.example.udacity.flavors.free"
             dimension "version"
             versionName "free"
 
         }
         paid {
+            applicationId "com.example.udacity.flavors.paid"
             dimension "version"
             versionName "paid"
         }
